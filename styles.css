@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#colorPicker {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#eraserCheckbox {
+    cursor: pointer;
+}
+
+canvas {
+    border: 1px solid #ccc;
+}
+
+#footer {
+    background-color: #ddd;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: #666;
+}
